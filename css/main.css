@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #fff;
+}
+.error-message {
+    margin-top: 10px;
+    color: #ff8888;
+}
+
+
+
+/* login */
+.index-access {
+    display: none;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #010023;
+}
+.navbar-toggler {
+    background: #2095d2 !important;
+}
+.ancillary-jumbotron {
+    background: #F5FCFF;
+}
+.ancillary-hero-section {
+    height: 100vh;
+}
+.ancillary-heading-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ancillary-heading-image {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ancillary-hero-row {
+    height: 100%;
+}
+
+
+
+.ancillary-heading {
+    color: #010023;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.jumbotron-paragraph {
+    color: #010023;
+}
+.jumbotron-join-waitlist {
+    background: #2095D2;
+    color: #fff;
+    text-decoration: none;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.jumbotron-join-waitlist:hover {
+    background: #1283bd;
+    color: #fff;
+}
+.join-waitlist {
+    background: #2095D2;
+    color: #fff;
+    text-decoration: none;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.join-waitlist:hover {
+    background: #1283bd;
+    color: #fff;
+}
+
+
+
+
+
+
+
+.portfolio-manager {
+    color: #010023;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.portfolio-manager-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+p.portfolio-manager-paragraph {
+    color: #010023;
+}
+.portfoliomanagerimage {
+    width: 100%;
+}
+ul.portfolio-manager-list li {
+    color: #010023;
+    margin-bottom: 10px;
+}
+li::marker {
+    color: #F22B2B;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+h2.investors {
+    color: #010023;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.container.investors-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+p.investors-paragraph {
+    color: #010023;
+}
+.investorsimage {
+    width: 100%;
+}
+ul.investors-list li {
+    color: #010023;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.save-cost-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.save-cost-bg-color {
+    background-color: #F5FCFF;
+}
+.savecostimage {
+    width: 100%;
+}
+h2.save-cost {
+    color: #010023;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ul.save-cost-list li {
+    color: #010023;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.broker-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sync-with-broker {
+    color: #010023;
+    font-weight: 600;
+    font-size: 22px;
+}
+.use-in-house-broker {
+    color: #010023;
+    font-weight: 600;
+    font-size: 22px;
+}
+.broker-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.sync-with-broker-or {
+    font-size: 22px;
+    background: #142236;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    margin-top: 22px;
+    border-radius: 6px;
+}
+
+
+
+
+.ancillary-footer {
+    background: #142236;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer-heading {
+    margin-bottom: 32px;
+}
+.footer-list {
+    list-style-type: none;
+    color: #fff;
+    margin-left: -31px;
+}
+.footer-list li {
+    margin-bottom: 10px;
+}
+.footer-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-list li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* Join waitlist */
+.waitlist-button {
+    margin-top: 30px;
+    width: 100%;
+    background: #2095D2;
+    color: #fff;
+    border: 2px solid #2095D2;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 6px;
+}
+.waitlist-input {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid #2095D2;
+    background: none;
+}
+
+
+
+
+
+
+/* Contact Us */
+.contact-us-button {
+    margin-top: 30px;
+    width: 100%;
+    background: #2095D2;
+    color: #fff;
+    border: 2px solid #2095D2;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 6px;
+}
+.contact-us-input {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 2px solid #2095D2;
+    background: none;
+}
+.contact-us-textarea {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #2095D2;
+    background: none;
+}
+
+
+
+
+/* About us */
+.about-us-hero {
+    background-image: url(../img/aboutusimage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-heading {
+    color: #fff;
+}
+.about-us-content {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    line-height: 28px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .ancillary-hero-section {
+        height: auto !important;
+    }
+    .ancillary-heading-content {
+       padding: 200px 0px 100px 0px;
+    }
+}
+@media (max-width: 500px) {
+    .broker-section {
+        height: auto;
+    }
+    .broker-images {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .broker-images img {
+        width: 100px;
+    }
+    .ancillary-footer img {
+        margin-bottom: 50px;
+    }
+    .ancillary-heading-content {
+        padding: 200px 20px 100px 20px;
+    }
+    .save-cost {
+        margin-top: 20px;
+    }
+    .navbar.navbar-expand-lg.fixed-top {
+        background: #fff;
+    }
+}
