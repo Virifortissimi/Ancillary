@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
         waitListButton = document.querySelector('.waitlist-button'),
         fromStorage = sessionStorage.getItem("sessionpassword"),
         errorMessage = document.querySelector('.error-message'),
-        drowssap = "Gabriel",
+        drowssap = "support",
         lockScreen = document.querySelector('.lock-screen'),
         indexAccess = document.querySelector('.index-access');
 

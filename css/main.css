@@ -19,6 +19,10 @@ body {
     display: none;
 }
 
+.dropdown-menu li {
+    font-size: 14px;
+    padding: 10px;
+}
 .nav-link {
     font-weight: 500;
     color: #010023;
