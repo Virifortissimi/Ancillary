@@ -185,7 +185,6 @@ ul.save-cost-list li {
 .broker-section {
     padding-top: 80px;
     padding-bottom: 80px;
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,11 +194,13 @@ ul.save-cost-list li {
     color: #010023;
     font-weight: 600;
     font-size: 22px;
+    text-align: center;
 }
 .use-in-house-broker {
     color: #010023;
     font-weight: 600;
     font-size: 22px;
+    text-align: center;
 }
 .broker-images {
     display: flex;
@@ -215,6 +216,9 @@ ul.save-cost-list li {
     margin-bottom: 30px;
     margin-top: 22px;
     border-radius: 6px;
+}
+.useourbrokage {
+    width: 100%;
 }
 
 
